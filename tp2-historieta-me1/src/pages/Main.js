@@ -27,14 +27,14 @@ function Main() {
 
         if(sign){
             mainContainer.classList.add("block-y");
-            mainContainer.classList.add("direction-final-1");
+            mainContainer.classList.add("direction-final-3");
             hideElements.classList.add("d-none");
             options.classList.add("d-none");
             showFinal1.classList.remove("d-none");
             showFinal1.classList.add("d-block");
         }else if(decline){
             mainContainer.classList.add("block-y");
-            mainContainer.classList.add("direction-final-3");
+            mainContainer.classList.add("direction-final-1");
             hideElements.classList.add("d-none");
             options.classList.add("d-none");
             showFinal3.classList.remove("d-none");
