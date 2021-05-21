@@ -1,0 +1,18 @@
+@import url('./style/main.css');
+
+@font-face {
+    font-family: "Comic";
+    src:  url('./font/ActionMan.woff2') format('woff2'),
+          url('./font/ActionMan.woff') format('woff'),
+          url('./font/ActionMan.ttf') format('truetype');
+  }
+
+
+html, body{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-family:'Comic';
+}
+
+

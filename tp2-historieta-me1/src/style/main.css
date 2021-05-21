@@ -1,0 +1,102 @@
+.main{
+    width:100%;
+    display:flex;
+    align-items:center;
+    margin-top:30px;
+    flex-direction: column;
+    overflow-x: scroll;
+}
+
+
+
+.main .first-scene{
+    width:90%;
+}
+
+.main .decision-scene{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    position:relative;
+    direction:ltr;
+}
+.main .decision-scene-pic{
+    width:100%;
+    height:100% !important;
+    object-fit: cover;
+    object-position: top;
+}
+
+.main .options{
+    position:absolute;
+    z-index:4;
+    bottom:50px;
+    right:20%;
+    color:white;
+    font-size:30px;
+    direction:ltr;
+}
+
+.main .options h3{
+    padding:0px 0px;
+    cursor:pointer;
+}
+
+.main .first-final{
+    height:100vh;
+    margin-right:120%;
+    margin-top:-100vh;
+}
+
+.main .final-1, .main .final-3, .main .final-2{
+    width:100%;
+}
+
+.main .final-2{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main .third-final{
+    height:100vh;
+    margin-left:100%;
+    margin-top:-100vh;
+}
+
+.main .to-hide{
+    display:flex;
+    justify-content: center;
+}
+
+
+.main .second-final-1, .main .second-final-2{
+    width: 55%;
+}
+
+
+
+.block-y{
+    overflow-y: hidden !important;
+}
+
+.block-x{
+    overflow-x: hidden !important;
+}
+
+.direction-final-1{
+    direction:rtl !important;
+}
+
+.direction-final-3{
+    direction:ltr !important;
+}
+
+.d-none{
+    display:none !important;
+}
+
+.d-block{
+    display:block !important;
+}
