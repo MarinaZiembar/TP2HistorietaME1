@@ -15,23 +15,27 @@ function App() {
 
   return (
     <div className="App">
-      <Beginning 
-        show={beginning} 
-        onHide={() => {setBeginning(false); setScene1(true)}}
-      />
-      <Scene1 
-        show={scene1} 
-        onFinal1={() => {setScene1(false); setFinal1(true)}}
-        onFinal2={() => {setScene1(false); setFinal2(true)}}
-      />
-      <Final1 
-        show={final1} 
-        onHide={() => {setFinal1(false); setBeginning(true)}}
-      />
-      <Final2 
-        show={final2} 
-        onHide={() => {setFinal2(false); setBeginning(true)}}
-      />
+      {beginning &&
+        <Beginning  
+          onHide={() => {setBeginning(false); setScene1(true)}}
+        />
+      }
+      {scene1 &&
+        <Scene1  
+          onFinal1={() => {setScene1(false); setFinal1(true)}}
+          onFinal2={() => {setScene1(false); setFinal2(true)}}
+        />
+      }
+      {final1 &&
+        <Final1 
+          onHide={() => {setFinal1(false); setBeginning(true)}}
+        />
+      }
+      {final2 &&
+        <Final2  
+          onHide={() => {setFinal2(false); setBeginning(true)}}
+        />
+      }
     </div>
   );
 }
