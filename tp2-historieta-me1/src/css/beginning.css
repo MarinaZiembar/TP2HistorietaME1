@@ -1,0 +1,34 @@
+.beginning{
+    height:140vh;
+    width:100vw !important;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url('../images/bk-beginning.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+.beginning img{
+    width:50%;
+    margin-bottom:3%;
+    height:auto;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-property: filter;
+    transition-timing-function: ease-out;
+}
+
+.beginning img:hover{
+    cursor: pointer;
+    filter:brightness(90%);
+}
+
+.beginning .dialog-1{
+    position:absolute;
+    top:80px;
+    left:50px;
+    font-size:25px;
+}

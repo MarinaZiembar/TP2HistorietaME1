@@ -1,4 +1,7 @@
-@import url('./style/main.css');
+@import url('./css/beginning.css');
+@import url('./css/scene-1.css');
+@import url('./css/final-1.css');
+@import url('./css/final-2.css');
 
 @font-face {
     font-family: "Comic";
@@ -14,5 +17,6 @@ html, body{
     padding:0px;
     font-family:'Comic';
 }
+
 
 

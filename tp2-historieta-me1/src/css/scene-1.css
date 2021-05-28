@@ -1,0 +1,39 @@
+.scene-1{
+    height:100vh;
+    width:fit-content;
+    position:relative;
+}
+
+.scene-1 .bk-scene-1{
+    height:100%;
+    width:auto;
+}
+
+
+.scene-1 .dagger{
+    position:absolute;
+    cursor: pointer;
+    top: 39%;
+    right: 11%;
+    z-index: 30;
+    width: 3%;
+    transition-duration: 0.3s;
+    transition-property: transform filter;
+    transition-timing-function: ease-out;
+}
+
+.scene-1 .pen{
+    position:absolute;
+    cursor: pointer;
+    bottom: 4%;
+    right: 2%;
+    z-index: 30;
+    width: 2%;
+    transition-duration: 0.3s;
+    transition-property: transform filter;
+    transition-timing-function: ease-out;
+}
+
+.scene-1 .pen:hover, .scene-1 .dagger:hover{
+    transform: translateY(-6px);
+}
