@@ -37,3 +37,66 @@
 .scene-1 .pen:hover, .scene-1 .dagger:hover{
     transform: translateY(-6px);
 }
+
+.scene-1 .dialog{
+    position:absolute;
+    z-index:10;
+    color:white;
+}
+
+.scene-1 .dialog-2{
+    bottom: 5%;
+    left: 1%;
+    width: 5%;
+    font-size: 16px;
+}
+
+.scene-1 .dialog-3{
+    bottom: 14%;
+    left: 12%;
+    font-size: 18px;
+}
+
+.scene-1 .dialog-4{
+    bottom: 18%;
+    left: 28%;
+    font-size: 18px;
+}
+
+.scene-1 .dialog-5{
+    bottom: 5%;
+    left: 35%;
+    font-size: 18px;
+}
+
+.scene-1 .dialog-6{
+    bottom: 8%;
+    left: 45%;
+    font-size: 26px;
+}
+
+.scene-1 .dialog-7{
+    bottom: 10%;
+    left: 61%;
+    width:8%;
+    font-size: 26px;
+    color:white;
+    text-align:center;
+}
+
+.scene-1 .dialog-8{
+    top: 11%;
+    left: 82%;
+    width:4%;
+    font-size: 14px;
+    color:black;
+}
+
+.scene-1 .dialog-9{
+    top: 18%;
+    left: 87%;
+    width:8%;
+    font-size: 18px;
+    color:black;
+    text-align: center;
+}

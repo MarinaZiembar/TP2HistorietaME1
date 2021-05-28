@@ -1,0 +1,89 @@
+.final-2{
+    height:100vh;
+    width:fit-content;
+    position:relative;
+}
+
+.final-2 .img-final-2{
+    height:100%;
+    width:auto;
+}
+
+.final-2 .dialog{
+    position:absolute;
+    z-index:10;
+    color:white;
+}
+
+.final-2 .dialog-1{
+    top:18%;
+    left:3%;
+    width:8%;
+    font-size:26px;
+    text-align: center;
+}
+
+.final-2 .dialog-2{
+    bottom:10%;
+    left:18%;
+    width:4%;
+    font-size:18px;
+    color:black;
+    text-align: center;
+}
+
+.final-2 .dialog-3{
+    bottom:40%;
+    left:31%;
+    width:4%;
+    font-size:24px;
+    text-align: center;
+}
+
+.final-2 .dialog-4{
+    bottom:15%;
+    left:42%;
+    width:4%;
+    font-size:24px;
+    text-align: center;
+}
+
+.final-2 .dialog-5{
+    top:21%;
+    left:51%;
+    width:5%;
+    font-size:18px;
+    color:#2c532b;
+}
+
+.final-2 .dialog-6{
+    top:45%;
+    left:65%;
+    width:8%;
+    font-size:50px;
+    text-align: center;
+}
+
+.final-2 .dialog-7{
+    bottom:5%;
+    left:83%;
+    width:8%;
+    font-size:50px;
+    text-align: center;
+}
+
+.final-2 .reintentar{
+    top:30px;
+    right:30px !important;
+    font-size:18px;
+    text-align: center;
+    color:black;
+    transition-duration: 0.3s;
+    transition-property: transform filter;
+    transition-timing-function: ease-out;
+    cursor:pointer;
+}
+
+.final-2 .reintentar:hover{
+    transform: translateY(-4px);
+}

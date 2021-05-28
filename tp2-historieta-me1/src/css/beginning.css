@@ -28,7 +28,11 @@
 
 .beginning .dialog-1{
     position:absolute;
-    top:80px;
-    left:50px;
+    display:flex;
+    justify-content: center;
+    width:100%;
+    top:90px;
     font-size:25px;
+    color:white;
 }
+

@@ -19,4 +19,13 @@ html, body{
 }
 
 
+.scroll-x-hidden{
+    overflow-x: hidden;
+}
+
+.scroll-y-hidden{
+    overflow-y: hidden;
+}
+
+
 
