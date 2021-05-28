@@ -4,46 +4,49 @@ import { dialogFinal2 } from '../dialog/dialog';
 import final2 from '../images/bk-final-2.png';
 
 
+
+ScrollReveal().reveal('.dialog-1', { 
+    delay: 400, 
+    duration: 600,
+    origin: 'left'
+});
+
+ScrollReveal().reveal('.dialog-2', { 
+    delay: 400, 
+    duration: 600,
+    origin: 'left'
+});
+ScrollReveal().reveal('.dialog-3', { 
+    delay: 1000, 
+    duration: 1000,
+    origin: 'left' 
+});
+ScrollReveal().reveal('.dialog-4', { 
+    delay: 1000, 
+    duration: 1000, 
+    origin: 'left' 
+});
+ScrollReveal().reveal('.dialog-5', { 
+    delay: 1000, 
+    duration: 1000, 
+    origin: 'left' 
+});
+ScrollReveal().reveal('.dialog-6', { 
+    delay: 1000, 
+    duration: 1000, 
+    origin: 'left' 
+});
+ScrollReveal().reveal('.dialog-7', { 
+    delay: 1000, 
+    duration: 1000, 
+    origin: 'left' 
+});
+
+
 function Final2(props) {
 
     const { show, onHide } = props;
 
-    ScrollReveal().reveal('.dialog-1', { 
-        delay: 400, 
-        duration: 600,
-        origin: 'left'
-    });
-
-    ScrollReveal().reveal('.dialog-2', { 
-        delay: 400, 
-        duration: 600,
-        origin: 'left'
-    });
-    ScrollReveal().reveal('.dialog-3', { 
-        delay: 1000, 
-        duration: 1000,
-        origin: 'left' 
-    });
-    ScrollReveal().reveal('.dialog-4', { 
-        delay: 1000, 
-        duration: 1000, 
-        origin: 'left' 
-    });
-    ScrollReveal().reveal('.dialog-5', { 
-        delay: 1000, 
-        duration: 1000, 
-        origin: 'left' 
-    });
-    ScrollReveal().reveal('.dialog-6', { 
-        delay: 1000, 
-        duration: 1000, 
-        origin: 'left' 
-    });
-    ScrollReveal().reveal('.dialog-7', { 
-        delay: 1000, 
-        duration: 1000, 
-        origin: 'left' 
-    });
 
     return(
         <>

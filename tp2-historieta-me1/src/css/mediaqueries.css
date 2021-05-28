@@ -1,0 +1,96 @@
+
+@media (min-width:1400px){
+    .beginning{
+        height:100vh;
+    }
+    .beginning .dialog-1{
+        font-size:30px;
+    }
+    .scene-1 .dialog-2{
+        font-size: 24px;
+    }
+    
+    .scene-1 .dialog-3{
+        font-size: 24px;
+    }
+    
+    .scene-1 .dialog-4{
+        font-size: 26px;
+    }
+    
+    .scene-1 .dialog-5{
+        font-size: 26px;
+    }
+    
+    .scene-1 .dialog-6{
+        font-size: 38px;
+    }
+    
+    .scene-1 .dialog-7{
+        font-size: 45px;
+    }
+    
+    .scene-1 .dialog-8{
+        font-size: 22px;
+    }
+    
+    .scene-1 .dialog-9{
+        font-size: 28px;
+    }
+
+    .final-1 .dialog-1{
+        font-size:36px;
+    }
+    
+    .final-1 .dialog-2{
+        font-size:32px;
+    }
+    
+    .final-1 .dialog-3{
+        font-size:35px;
+    }
+    
+    .final-1 .dialog-4{
+        font-size:45px;
+    }
+    
+    .final-1 .dialog-5{
+        font-size:64px;
+    }
+    
+    .final-1 .reintentar{
+        font-size:30px;
+    }
+
+    .final-2 .dialog-1{
+        font-size:36px;
+    }
+    
+    .final-2 .dialog-2{
+        font-size:28px;
+    }
+    
+    .final-2 .dialog-3{
+        font-size:32px;
+    }
+    
+    .final-2 .dialog-4{
+        font-size:38px;
+    }
+    
+    .final-2 .dialog-5{
+        font-size:30px;
+    }
+    
+    .final-2 .dialog-6{
+        font-size:70px;
+    }
+    
+    .final-2 .dialog-7{
+        font-size:80px;
+    }
+    
+    .final-2 .reintentar{
+        font-size:30px;
+    }
+}

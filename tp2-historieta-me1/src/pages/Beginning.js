@@ -3,15 +3,15 @@ import door from '../images/door.png';
 import ScrollReveal from 'scrollreveal';
 
 
+ScrollReveal().reveal('.dialog-1', { 
+    delay: 600, 
+    duration: 500 
+});
+
 
 function Beginning(props) {
 
     const { show, onHide } = props;
-
-    ScrollReveal({reset:true}).reveal('.dialog-1', { 
-        delay: 600, 
-        duration: 500 
-    });
 
     return(
         <>
